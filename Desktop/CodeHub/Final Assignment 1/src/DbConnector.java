@@ -36,7 +36,7 @@ public class DbConnector {
                 columnCarPlate.add(myRs.getString("PlateNumber"));
                 columnDate.add(myRs.getString("ExpirationDatestamp"));
                 columnCarModel.add(myRs.getString("CarModel"));
-            //   vehiclesInfDB2.add(new Vehicles(myRs.getString("FullName"), myRs.getString("PlateNumber"), myRs.getString("CarModel"), myRs.getString("ExpirationDatestamp")));
+            //   vehiclesInfDB2.add(new Vehicle(myRs.getString("FullName"), myRs.getString("PlateNumber"), myRs.getString("CarModel"), myRs.getString("ExpirationDatestamp")));
 
             }
         } catch (Exception exc) {
