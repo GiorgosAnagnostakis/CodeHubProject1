@@ -1,4 +1,4 @@
-public class Vehicles  {
+public class Vehicle {
 
     String ownerName;
     String plateNumber;
@@ -6,7 +6,7 @@ public class Vehicles  {
     String finishDayInsu;
 
 
-    public Vehicles(String ownerName, String plateNumber, String carType, String finishDayInsu) {
+    public Vehicle(String ownerName, String plateNumber, String carType, String finishDayInsu) {
         this.ownerName = ownerName;
         this.plateNumber = plateNumber;
         this.carType = carType;
@@ -18,7 +18,7 @@ public class Vehicles  {
         return plateNumber;
     }
 
-    /* public int Compare(Vehicles d, Vehicles d1) {
+    /* public int Compare(Vehicle d, Vehicle d1) {
          return d.getPlateNumber().compareTo(d1.getPlateNumber());
      }
  */
